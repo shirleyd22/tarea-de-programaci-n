@@ -36,9 +36,11 @@ temperaturas = [
         [18.9, 18.7]
     ]
 ]
-"""
-uso de funciones en Python para calcular temperaturas promedio utilizando los datos de la tarea de la semana 12
-"""
+
+#  Practicar la definición y uso de funciones en Python para calcular temperaturas promedio utilizando los datos de la tarea de la semana 12
+#codigo actualizado
+#definir funciones
+
 
 #funcion principal
 def calcular_promedio(ciudades, dias, temperaturas):
