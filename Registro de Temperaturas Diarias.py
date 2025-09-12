@@ -1,7 +1,12 @@
+# lista de ciudades
 ciudades = [ "Quito", "Guayaquil", "Cuenca"]
+
+#lista de dias de la semana
 dias = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"]
+
 num_semanas = 2
 
+#se muestra las temperaturas por ciudad, dia, y semana
 temperaturas = [
     [
         [15.5, 14.8],
@@ -31,12 +36,21 @@ temperaturas = [
         [18.9, 18.7]
     ]
 ]
+#funcion principal
+def calcular_promedio(ciudades, dias, temperaturas):
+    """
+    se calcula y se muestra la temperatura promedio de cada ciudad por semana
+     """
+    num_semanas = len(temperaturas [0][0])
 
-for i, ciudad in enumerate(ciudades):
-    print(f"\n Promedios de temperatura para {ciudad}: ")
-    for semana in range(num_semanas):
-        suma = 0
-        for dia in range(len(dias)):
-            suma += temperaturas[i][dia][semana]
-        promedio = suma / len(dias)
-        print(f" semana {semana + 1}: {promedio: .1f} °C")
+    for i, ciudad in enumerate (ciudades):
+        print(f"\n Promedios de temperatura para la ciudad de {ciudad}:")
+        for semana in range(num_semanas):
+            suma=0
+            for dia in range(len(dias)):
+                suma +=temperaturas[i][dia][semana]
+            promedio = suma / len(dias)
+            print(f"semana{semana + 1}: {promedio: .1f}°C")
+
+# se hace el llamado de la funcion
+calcular_promedio(ciudades, dias, temperaturas)
