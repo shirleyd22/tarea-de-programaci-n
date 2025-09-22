@@ -3,8 +3,8 @@
 print("\n se muestra la informacion personal: ")
 informacion_personal = {
 
-    "nombre": "Ashley",
-    "apellido": "Villalba",
+    "nombre": "Emily",
+    "apellido": "Robles",
     "edad": "22",
     "ciudad": "Guayaquil",
     "profesion": "Estudiante",
