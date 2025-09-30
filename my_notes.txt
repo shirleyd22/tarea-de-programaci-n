@@ -1,0 +1,4 @@
+primera nota: estoy aprendiendo python. 
+segunda nota: hoy practicamos archivos de texto. 
+tecercera nota: el uso de Github es importante para guardar proyectos. 
+ 
