@@ -5,7 +5,7 @@
 with open("my_notes.txt", "w") as file:  #abrimos el archivo en modo escritura ("w")
     file.write("primera nota: estoy aprendiendo python. \n")
     file.write("segunda nota: hoy practicamos archivos de texto. \n")
-    file.write("tecercera nota: el uso de Github es importante para guardar proyectos. \n ")
+    file.write("tecercera nota: el uso de Github es importante para guardar proyectos . \n ")
 
 #cuando usamos "with open(...)" no hace falta cerrar el archivo, ya que python lo hace automaticamente.
 
@@ -22,4 +22,4 @@ with open("my_notes.txt", "r") as file:
 
 #y se muestra un mensaje final para confirmar que salio bien
 
-print("\n El erchivo fue leido y cerrado correctamente")
+print("\n El archivo fue leido y cerrado correctamente")
